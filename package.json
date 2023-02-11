@@ -1,6 +1,6 @@
 {
   "name": "vue-atom",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "packageManager": "pnpm@7.26.3",
   "description": "Alias shallowRef to atom.",
   "license": "MIT",
