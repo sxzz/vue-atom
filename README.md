@@ -2,10 +2,21 @@
 
 [![Unit Test](https://github.com/sxzz/vue-atom/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/vue-atom/actions/workflows/unit-test.yml)
 
+Alias `shallowRef` to `atom`.
+
 ## Install
 
 ```bash
 npm i vue-atom
+```
+
+## Usage
+
+```ts
+import { atom } from 'vue-atom'
+import { shallowRef } from 'vue'
+
+console.log(atom === shallowRef) // true
 ```
 
 ## Sponsors
@@ -18,4 +29,4 @@ npm i vue-atom
 
 ## License
 
-[MIT](./LICENSE) License © 2022 [三咲智子](https://github.com/sxzz)
+[MIT](./LICENSE) License © 2023 [三咲智子](https://github.com/sxzz)
