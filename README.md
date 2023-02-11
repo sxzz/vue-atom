@@ -1,19 +1,19 @@
-# vue-atom [![npm](https://img.shields.io/npm/v/vue-atom.svg)](https://npmjs.com/package/vue-atom)
+# vtom [![npm](https://img.shields.io/npm/v/vtom.svg)](https://npmjs.com/package/vtom)
 
-[![Unit Test](https://github.com/sxzz/vue-atom/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/vue-atom/actions/workflows/unit-test.yml)
+[![Unit Test](https://github.com/sxzz/vtom/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/vtom/actions/workflows/unit-test.yml)
 
 Alias `shallowRef` to `atom`.
 
 ## Install
 
 ```bash
-npm i vue-atom
+npm i vtom
 ```
 
 ## Usage
 
 ```ts
-import { atom } from 'vue-atom'
+import { atom } from 'vtom'
 import { shallowRef } from 'vue'
 
 console.log(atom === shallowRef) // true

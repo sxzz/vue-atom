@@ -1,16 +1,16 @@
 {
-  "name": "vue-atom",
+  "name": "vtom",
   "version": "0.1.0",
   "packageManager": "pnpm@7.26.3",
   "description": "Alias shallowRef to atom.",
   "license": "MIT",
-  "homepage": "https://github.com/sxzz/vue-atom#readme",
+  "homepage": "https://github.com/sxzz/vtom#readme",
   "bugs": {
-    "url": "https://github.com/sxzz/vue-atom/issues"
+    "url": "https://github.com/sxzz/vtom/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sxzz/vue-atom.git"
+    "url": "git+https://github.com/sxzz/vtom.git"
   },
   "files": [
     "dist"
