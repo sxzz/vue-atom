@@ -1,16 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2021",
+    "target": "esnext",
     "module": "esnext",
-    "lib": ["es2019"],
+    "lib": ["es2022"],
     "strict": true,
     "esModuleInterop": true,
     "moduleResolution": "bundler",
     "skipLibCheck": true,
     "noUnusedLocals": true,
     "resolveJsonModule": true,
-    "types": ["node"]
+    "types": []
   },
-  "include": ["src", "tests", "scripts"],
-  "exclude": ["tests/fixtures"]
+  "include": ["src", "tests"]
 }

@@ -1,7 +1,7 @@
 {
   "name": "vtom",
   "version": "1.0.0",
-  "packageManager": "pnpm@7.26.3",
+  "packageManager": "pnpm@8.6.7",
   "description": "Alias shallowRef to atom.",
   "license": "MIT",
   "homepage": "https://github.com/sxzz/vtom#readme",
@@ -19,7 +19,10 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
-    "types": "./dist/index.d.ts",
+    "types": {
+      "require": "./dist/index.d.ts",
+      "import": "./dist/index.d.mts"
+    },
     "require": "./dist/index.js",
     "import": "./dist/index.mjs"
   },
@@ -27,33 +30,34 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
+    "lint": "eslint .",
     "lint:fix": "pnpm run lint --fix",
-    "build": "tsup && tsx scripts/postbuild.mts",
+    "build": "tsup",
     "test": "vitest",
     "release": "bumpp && pnpm publish",
     "prepublishOnly": "pnpm run build"
   },
   "peerDependencies": {
-    "vue": "^3.0.0"
+    "vue": "^2.7.0 || ^3.0.0"
   },
   "devDependencies": {
-    "@sxzz/eslint-config-prettier": "^2.4.5",
-    "@sxzz/eslint-config-ts": "^2.4.5",
-    "@types/node": "^18.15.3",
-    "bumpp": "^9.0.0",
-    "eslint": "^8.36.0",
-    "eslint-define-config": "^1.16.0",
-    "fast-glob": "^3.2.12",
-    "prettier": "^2.8.4",
-    "tsup": "^6.6.3",
-    "tsx": "^3.12.5",
-    "typescript": "^5.0.2",
-    "vite": "^4.2.0",
-    "vitest": "^0.29.3",
-    "vue": "^3.2.47"
+    "@sxzz/eslint-config": "^3.2.1",
+    "@sxzz/prettier-config": "^1.0.4",
+    "@types/node": "^20.4.2",
+    "bumpp": "^9.1.1",
+    "eslint": "^8.44.0",
+    "eslint-define-config": "^1.21.0",
+    "fast-glob": "^3.3.0",
+    "prettier": "^3.0.0",
+    "tsup": "^7.1.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.3",
+    "vitest": "^0.33.0",
+    "vue": "^3.3.4"
   },
   "engines": {
-    "node": ">=14.19.0"
-  }
+    "node": ">=16.14.0"
+  },
+  "prettier": "@sxzz/prettier-config"
 }
