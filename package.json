@@ -1,7 +1,7 @@
 {
   "name": "vtom",
   "version": "1.1.0",
-  "packageManager": "pnpm@8.7.1",
+  "packageManager": "pnpm@8.7.4",
   "description": "Alias shallowRef to atom.",
   "license": "MIT",
   "homepage": "https://github.com/sxzz/vtom#readme",
@@ -41,11 +41,11 @@
     "vue": "^2.7.0 || ^3.0.0"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "^3.5.1",
+    "@sxzz/eslint-config": "^3.5.4",
     "@sxzz/prettier-config": "^1.0.4",
-    "@types/node": "^20.5.9",
+    "@types/node": "^20.6.0",
     "bumpp": "^9.2.0",
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "eslint-define-config": "^1.23.0",
     "fast-glob": "^3.3.1",
     "prettier": "^3.0.3",
@@ -53,7 +53,7 @@
     "tsx": "^3.12.8",
     "typescript": "^5.2.2",
     "vite": "^4.4.9",
-    "vitest": "^0.34.3",
+    "vitest": "^0.34.4",
     "vue": "^3.3.4"
   },
   "engines": {
