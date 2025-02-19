@@ -1,7 +1,7 @@
 {
   "name": "vtom",
   "version": "1.2.0",
-  "packageManager": "pnpm@10.4.0",
+  "packageManager": "pnpm@10.4.1",
   "description": "Alias shallowRef to atom.",
   "type": "module",
   "license": "MIT",
@@ -44,10 +44,10 @@
     "bumpp": "^10.0.3",
     "eslint": "^9.20.1",
     "prettier": "^3.5.1",
-    "tsdown": "^0.5.9",
+    "tsdown": "^0.6.0",
     "typescript": "^5.7.3",
-    "vite": "^6.1.0",
-    "vitest": "^3.0.5",
+    "vite": "^6.1.1",
+    "vitest": "^3.0.6",
     "vue": "^3.5.13"
   },
   "prettier": "@sxzz/prettier-config"
